@@ -25,6 +25,9 @@ void Dfs(int current)
 
 int main()
 {
+    ios_base::sync_with_stdio(false); 
+    cin.tie(NULL);
+    
     int nodeCount = 0;
     int pairCount = 0;
     int startNum = 0;
